@@ -66,7 +66,7 @@ In particular, we will require the following packages:
 > _**Note:** It is best to have some GPU available to train the multimodal models (Google Colab can be used)._
 
 
-## 📝 Notebook: [`colabs at`](./notebooks/.*.ipynb)
+## 📝 Notebook: [`colabs at`] (./notebooks/.*.ipynb)
 
 ## papers published 
 
