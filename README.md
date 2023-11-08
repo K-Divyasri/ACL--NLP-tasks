@@ -6,7 +6,7 @@ This is a proof of concept for the Emotional Analysis shared task organized by t
 
 ## Dataset
 The dataset was given by the organizers of Emotional Analysis - DravidanLangTech 
-Tamil is a low resource South Indian Dravidan Language, the dataset contains a train 
+Tamil is a low resource South Indian Dravidan Language, the emotional analysis dataset contains 5940 datapoints with 8 classes and the abusive comment detection dataset contains 9440 datapoints with 
 
 ## Preprocessing
 
@@ -42,7 +42,14 @@ In particular, we will require the following packages:
 > _**Note:** It is best to have some GPU available to train the multimodal models (Google Colab can be used)._
 
 
-## 📝 Notebook: [`VisualQuestionAnsweringWithTransformers.ipynb`](./notebooks/Copy of run1_tfidf+labse.ipynb)
+## 📝 Notebook: [`colabs at`](./notebooks/Copy of run1_tfidf+labse.ipynb)
+
+## papers published 
+
+- `Emotion Analysis in Tamil Text using Language Agnostic Embeddings`
+published in ACL 2022 Anthology. https://aclanthology.org/2022.dravidianlangtech-1.17/
+- `Abusive Comment Detection in Tamil Code-Mixed Data Using Custom Embeddings with LaBSE`
+- published in ACL 2022 Anthology. https://aclanthology.org/2022.dravidianlangtech-1.18/
 
 
 
