@@ -26,15 +26,15 @@ To run the code:
 
 The following packages are required:
 
+- datasets==1.17.0
+- nltk==3.5  
+- pandas==1.3.5
+- Pillow==9.0.0
+- scikit-learn==0.23.2 
+- torch==1.8.2+cu111
+- transformers==4.15.0
+- dvc==2.9.3 (for automating the training pipeline)
 
-datasets==1.17.0
-nltk==3.5
-pandas==1.3.5
-Pillow==9.0.0
-scikit-learn==0.23.2
-torch==1.8.2+cu111
-transformers==4.15.0
-dvc==2.9.3 (for automating the training pipeline)
 
 
 
