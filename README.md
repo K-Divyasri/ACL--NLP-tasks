@@ -4,6 +4,9 @@
 
 This is a proof of concept for the Emotional Analysis shared task organized by the ACL DravidanLangTech 2022.
 
+## Dataset
+The dataset was given by the organizers of Emotional Analysis - DravidanLangTech and
+
 ## Preprocessing
 
 We converted the dataset into a pandas data frame and started preprocessing. We removed emoticons and unmatched data points from the data frame along with stop words. We then printed out the distribution of the data frame and found the data was highly imbalanced.
