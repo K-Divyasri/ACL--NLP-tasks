@@ -2,10 +2,10 @@
 
 ## Overview
 
-This is a proof of concept for the Emotional Analysis shared task organized by the ACL DravidanLangTech 2022.
+This is a proof of concept for the Emotional Analysis and Abusive Comment Detection shared task organized by the ACL DravidanLangTech 2022.
 
 ## Dataset
-The dataset was given by the organizers of Emotional Analysis - DravidanLangTech. Tamil is a low resource South Indian Dravidan Language, the emotional analysis dataset contains 5940 datapoints with 8 classes and the abusive comment detection dataset contains 9440 datapoints with 11 classes.
+The dataset was given by the organizers of Emotional Analysis and Abusive Comment Detection - DravidanLangTech. Tamil is a low resource South Indian Dravidan Language, the emotional analysis dataset contains 5940 datapoints with 8 classes and the abusive comment detection dataset contains 9440 datapoints with 11 classes.
 
 ## Preprocessing
 
@@ -15,7 +15,7 @@ We converted the dataset into a pandas data frame and started preprocessing. We 
 
 To address the imbalance, we used 'SMOTE - Synthetic Oversampling Technique' to balance the data.
 
-## Modeling - performance scores of model deployed
+## Modeling - performance scores of models deployed
 
 | Feature | Classifier | Accuracy | Precision | Recall | F1 score |
 | :---: | :---: | :---: | :---: | :---: | :---: |
