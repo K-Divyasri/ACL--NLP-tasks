@@ -1,4 +1,4 @@
-# ACL-Emotional_Analysis
+# ACL-NLP tasks 2022
 
 ## Overview
 
@@ -14,11 +14,36 @@ We converted the dataset into a pandas data frame and started preprocessing. We 
 
 ## Data Balancing
 
-To address imbalance, we used 'SMOTE - Synthetic Oversampling Technique' to balance the data.
+To address the imbalance, we used 'SMOTE - Synthetic Oversampling Technique' to balance the data.
 
-## Modeling 
+## Modeling - performance scores of model deployed
 
-We then applied a LaBSE transformer which is a derivate of the BERT model. This was passed to a SVM classifier, attaining an accuracy of 0.44.
+| Feature | Classifier | Accuracy | Precision | Recall | F1 score |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| TF-IDF | SVM | 0.71 | 0.75 | 0.28 | 0.31 |
+| TF-IDF | K Nearest Neighbours Classifier | 0.66 | 0.44 | 0.27 | 0.31 |
+| TF-IDF | distiluse-base-multilingual-cased-v2 | 0.74 | 0.69 | 0.38 | 0.44 |
+| TF-IDF | MLP | 0.70 | 0.52 | 0.41 | 0.45 |
+| TF-IDF | sBert | _**0.74**_ | 0.67 | 0.38 | 0.45 |
+| LaBSE | SVM | 0.71 | 0.67 | 0.32 | 0.38 |
+| LaBSE | MLP | 0.66 | 0.43 | 0.38 | 0.40 |
+| TF-IDF +LaBSE | SVM with HiClass | 0.72 | 0.65 | 0.32 | 0.37 |
+| TF-IDF +LaBSE | Random Forest | 0.68 | 0.50 | 0.34 | 0.39 |
+
+| TF-IDF +LaBSE | Gradient Boosting Classifier | 0.69 | 0.53 | 0.55 | 0.40 |
+| TF-IDF +LaBSE | MLP | 0.67 | 0.49 | 0.44 | 0.45 |
+| TF-IDF +LaBSE | SVM on Hierachial Levels | 0.72 | 0.68 | 0.41 | 0.46 |
+| TF-IDF +LaBSE | SVM | _**0.74**_ | 0.70 | 0.44 | 0.49 |
+| TF-IDF +LaBSE | Linear SVM with class-weights | _**0.74**_ | 0.54 | 0.46 | 0.49 |
+| TF-IDF +LaBSE + XAI | SVM | _**0.74**_ | 0.68 | 0.38 | 0.45 |
+| TF-IDF +LaBSE + XAI | SVM on Hierachial levels | 0.72 | 0.67 | 0.41 | 0.46 |
+| TF-IDF +LaBSE + XAI | Linear SVM with intercept fitting | _**0.74**_ | 0.57 | 0.44 | 0.48 |
+| TF-IDF +LaBSE + XAI | Linear SVM with class-weights | _**0.74**_ | 0.54 | 0.46 | _**0.50**_ |
+
+
+
+
+
 
 ## Instructions
 
@@ -42,7 +67,7 @@ In particular, we will require the following packages:
 > _**Note:** It is best to have some GPU available to train the multimodal models (Google Colab can be used)._
 
 
-## 📝 Notebook: [`colabs at`](./notebooks/Copy of run1_tfidf+labse.ipynb)
+## 📝 Notebook: [`colabs at`](./notebooks/.*.ipynb)
 
 ## papers published 
 
