@@ -1,7 +1,31 @@
 # ACL-Emotional_Analysis
-This is a proof of concept for the Emotional Analysis shared task organized by the ACL DravidanLangTech 2022. We converted it into a pandas data frame and started preprocessing We removed the emoticons and removed unmatched data points from the data frame along with the stop words, we then printed out the distribution of the data frame and found the data was highly imbalanced, so we used 'SMOTE -  Synthetic Oversampling Technique' to balance the data and applied a LaBSE transformer which is a derivate of the BERT model, we passed it to a SVM classifier attaining an accuracy of 0.44
-Load the given dataset as 'df' at line 8 in the given code to run it.
-In particular, we will require the following packages in the environment to run the above code:
+
+## Overview
+
+This is a proof of concept for the Emotional Analysis shared task organized by the ACL DravidanLangTech 2022.
+
+## Preprocessing
+
+We converted the dataset into a pandas data frame and started preprocessing. We removed emoticons and unmatched data points from the data frame along with stop words. We then printed out the distribution of the data frame and found the data was highly imbalanced.
+
+## Data Balancing
+
+To address imbalance, we used 'SMOTE - Synthetic Oversampling Technique' to balance the data.
+
+## Modeling 
+
+We then applied a LaBSE transformer which is a derivate of the BERT model. This was passed to a SVM classifier, attaining an accuracy of 0.44.
+
+## Instructions
+
+To run the code:
+
+1. Load the given dataset as 'df' at line 8
+
+## Requirements
+
+The following packages are required:
+
 
 datasets==1.17.0
 nltk==3.5
