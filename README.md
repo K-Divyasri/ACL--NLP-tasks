@@ -29,7 +29,6 @@ To address the imbalance, we used 'SMOTE - Synthetic Oversampling Technique' to 
 | LaBSE | MLP | 0.66 | 0.43 | 0.38 | 0.40 |
 | TF-IDF +LaBSE | SVM with HiClass | 0.72 | 0.65 | 0.32 | 0.37 |
 | TF-IDF +LaBSE | Random Forest | 0.68 | 0.50 | 0.34 | 0.39 |
-
 | TF-IDF +LaBSE | Gradient Boosting Classifier | 0.69 | 0.53 | 0.55 | 0.40 |
 | TF-IDF +LaBSE | MLP | 0.67 | 0.49 | 0.44 | 0.45 |
 | TF-IDF +LaBSE | SVM on Hierachial Levels | 0.72 | 0.68 | 0.41 | 0.46 |
