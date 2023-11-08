@@ -5,7 +5,7 @@
 This is a proof of concept for the Emotional Analysis and Abusive Comment Detection shared task organized by the ACL DravidanLangTech 2022.
 
 ## Dataset
-The dataset was given by the organizers of Emotional Analysis and Abusive Comment Detection - DravidanLangTech. Tamil is a low resource South Indian Dravidan Language, the emotional analysis dataset contains 5940 datapoints with 8 classes and the abusive comment detection dataset contains 9440 datapoints with 11 classes.
+The dataset was given by the organizers of Emotional Analysis and Abusive Comment Detection tasks - DravidanLangTech. Tamil is a low-resource South Indian Dravidian Language, the emotional analysis dataset contains 5940 datapoints with 8 classes and the abusive comment detection dataset contains 9440 datapoints with 11 classes.
 
 ## Preprocessing
 
